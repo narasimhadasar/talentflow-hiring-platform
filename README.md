@@ -91,7 +91,7 @@ TalentFlow is a front-end only hiring platform built with React that demonstrate
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/narasimhadasar/talentflow-hiring-platform
 cd talentflow
 
 # Install dependencies
