@@ -82,7 +82,7 @@ export default function Home() {
               number={stats.totalJobs} 
               label="Total Positions" 
               color="#00d4aa"
-              subtitle={`${stats.jobsByStatus.active} active openings`}
+              subtitle={`${stats.jobsByStatus?.active} active openings`}
               trend="+12%"
             />
             <MetricCard 
