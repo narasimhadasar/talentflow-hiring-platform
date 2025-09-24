@@ -23,7 +23,7 @@ A comprehensive React-based hiring management system that streamlines the recrui
 
 TalentFlow is a front-end only hiring platform built with React that demonstrates modern web development practices. It simulates a complete hiring workflow from job posting to candidate management, featuring a professional dark theme UI and responsive design.
 
-**Live Demo:** [Deploy your app and add link here]
+**Live Demo:** https://talentflow-hiring-platform.onrender.com
 
 ## Features
 
