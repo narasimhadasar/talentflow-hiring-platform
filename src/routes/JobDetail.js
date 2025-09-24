@@ -942,12 +942,14 @@ const assessmentActionsStyle = {
 
 const assignSelectStyle = {
   padding: '10px 14px',
-  border: '2px solid rgba(255, 255, 255, 0.3)',
+  border: '2px solid rgba(0, 212, 170, 0.3)',
   borderRadius: '12px',
   fontSize: '0.9rem',
-  background: 'rgba(255, 255, 255, 0.1)',
+  background: 'rgba(30, 30, 60, 0.9)',
   color: '#ffffff',
-  backdropFilter: 'blur(10px)'
+  backdropFilter: 'blur(10px)',
+  cursor: 'pointer',
+  transition: 'all 0.3s ease'
 };
 
 const emptyStateStyle = {
