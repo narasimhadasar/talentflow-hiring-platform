@@ -303,7 +303,7 @@ This project is created for educational and demonstration purposes.
 
 ## Contributing
 
-This is a technical assignment project. For questions or feedback, please contact the developer.
+This is a technical assignment project. 
 
 ---
 
