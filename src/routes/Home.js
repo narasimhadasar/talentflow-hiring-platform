@@ -100,7 +100,7 @@ export default function Home() {
               trend="+15%"
             />
             <MetricCard 
-              number={stats.applicationsByStage.Hired} 
+              number={stats.applicationsByStage?.Hired} 
               label="Successful Hires" 
               color="#45b7d1"
               subtitle="Completed placements"
