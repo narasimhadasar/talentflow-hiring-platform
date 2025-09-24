@@ -1,10 +1,10 @@
-# 🚀 TalentFlow - Modern Hiring Platform
+# TalentFlow - Modern Hiring Platform
 
 A comprehensive React-based hiring management system that streamlines the recruitment process with intelligent workforce management tools.
 
 ![TalentFlow Dashboard](https://img.shields.io/badge/React-18.2.0-blue) ![MSW](https://img.shields.io/badge/MSW-API_Mocking-green) ![Responsive](https://img.shields.io/badge/Design-Responsive-purple) ![Status](https://img.shields.io/badge/Status-Production_Ready-success)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -19,49 +19,49 @@ A comprehensive React-based hiring management system that streamlines the recrui
 - [Known Issues](#known-issues)
 - [Future Enhancements](#future-enhancements)
 
-## 🎯 Overview
+## Overview
 
 TalentFlow is a front-end only hiring platform built with React that demonstrates modern web development practices. It simulates a complete hiring workflow from job posting to candidate management, featuring a professional dark theme UI and responsive design.
 
 **Live Demo:** [Deploy your app and add link here]
 
-## ✨ Features
+## Features
 
-### 🏢 Jobs Management
-- ✅ **CRUD Operations** - Create, edit, archive, and manage job postings
-- ✅ **Advanced Filtering** - Search by title, status, and tags
-- ✅ **Drag & Drop Reordering** - Intuitive job prioritization with optimistic updates
-- ✅ **Deep Linking** - Direct access to job details via `/jobs/:jobId`
-- ✅ **Pagination** - Server-like pagination for large datasets
+### Jobs Management
+- **CRUD Operations** - Create, edit, archive, and manage job postings
+- **Advanced Filtering** - Search by title, status, and tags
+- **Drag & Drop Reordering** - Intuitive job prioritization with optimistic updates
+- **Deep Linking** - Direct access to job details via `/jobs/:jobId`
+- **Pagination** - Server-like pagination for large datasets
 
-### 👥 Candidates Management
-- ✅ **Virtualized Lists** - Efficiently handles 1000+ candidates
-- ✅ **Real-time Search** - Debounced search across name, email, and job titles
-- ✅ **Kanban Board** - Visual candidate pipeline with drag-and-drop stage transitions
-- ✅ **Candidate Profiles** - Detailed view with application timeline
-- ✅ **CSV Export** - Export candidate data for external analysis
+### Candidates Management
+- **Virtualized Lists** - Efficiently handles 1000+ candidates
+- **Real-time Search** - Debounced search across name, email, and job titles
+- **Kanban Board** - Visual candidate pipeline with drag-and-drop stage transitions
+- **Candidate Profiles** - Detailed view with application timeline
+- **CSV Export** - Export candidate data for external analysis
 
-### 📝 Assessment System
-- ✅ **Interactive Builder** - Create assessments with 6 question types:
+### Assessment System
+- **Interactive Builder** - Create assessments with 6 question types:
   - Single-choice questions
   - Multi-choice questions  
   - Short text responses
   - Long text responses
   - Numeric input with range validation
   - File upload placeholders
-- ✅ **Live Preview** - Real-time assessment preview as you build
-- ✅ **Conditional Logic** - Show/hide questions based on previous answers
-- ✅ **Form Validation** - Comprehensive validation rules and error handling
-- ✅ **Templates System** - Pre-built assessment templates
+- **Live Preview** - Real-time assessment preview as you build
+- **Conditional Logic** - Show/hide questions based on previous answers
+- **Form Validation** - Comprehensive validation rules and error handling
+- **Templates System** - Pre-built assessment templates
 
-### 🎨 User Experience
-- ✅ **Professional Dark Theme** - Modern glass morphism design
-- ✅ **Fully Responsive** - Optimized for mobile, tablet, and desktop
-- ✅ **Analytics Dashboard** - Real-time hiring metrics and insights
-- ✅ **Navigation System** - Breadcrumbs and quick actions
-- ✅ **Loading States** - Smooth user feedback throughout the app
+### User Experience
+- **Professional Dark Theme** - Modern glass morphism design
+- **Fully Responsive** - Optimized for mobile, tablet, and desktop
+- **Analytics Dashboard** - Real-time hiring metrics and insights
+- **Navigation System** - Breadcrumbs and quick actions
+- **Loading States** - Smooth user feedback throughout the app
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Core Technologies
 - **React 18.2.0** - Modern React with hooks and functional components
@@ -81,7 +81,7 @@ TalentFlow is a front-end only hiring platform built with React that demonstrate
 - **Virtualization** - Efficient rendering of large datasets
 - **Optimistic Updates** - Immediate UI feedback with rollback capability
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ 
@@ -113,7 +113,7 @@ npm run build
 npm run serve
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -141,7 +141,7 @@ src/
 └── App.js              # Main application component
 ```
 
-## 🔧 Core Functionality
+## Core Functionality
 
 ### Jobs Workflow
 1. **Create Job** - Modal form with validation
@@ -164,7 +164,7 @@ src/
 4. **Template System** - Pre-built assessment templates
 5. **Response Handling** - Form submission and validation
 
-## 🌐 API Endpoints
+## API Endpoints
 
 All API calls are mocked using MSW. The following endpoints are implemented:
 
@@ -196,7 +196,7 @@ POST   /api/assessments/:jobId/submit
 GET    /api/stats
 ```
 
-## ⚡ Performance
+## Performance
 
 ### Optimizations Implemented
 - **Virtualized Lists** - Handles 1000+ items efficiently
@@ -211,7 +211,7 @@ GET    /api/stats
 - **Drag Operations** - 60fps smooth animations
 - **Memory Usage** - Optimized for large datasets
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 - **Primary** - `#00d4aa` (Teal)
@@ -231,7 +231,7 @@ GET    /api/stats
 - **Responsive Grid** - CSS Grid with `auto-fit` and `minmax()`
 - **Touch Friendly** - 44px minimum touch targets
 
-## 🔍 Technical Decisions
+## Technical Decisions
 
 ### Architecture Choices
 
@@ -267,7 +267,7 @@ GET    /api/stats
 - IndexedDB for persistence
 - No external state management library needed for this scope
 
-## 🐛 Known Issues
+## Known Issues
 
 ### Minor Issues
 1. **Drag and Drop** - Occasional visual glitches on mobile Safari
@@ -275,12 +275,12 @@ GET    /api/stats
 3. **Offline Mode** - Limited offline functionality
 
 ### Browser Compatibility
-- **Chrome/Edge** - Full support ✅
-- **Firefox** - Full support ✅  
-- **Safari** - Minor CSS differences ⚠️
-- **Mobile Browsers** - Optimized for modern browsers ✅
+- **Chrome/Edge** - Full support
+- **Firefox** - Full support  
+- **Safari** - Minor CSS differences
+- **Mobile Browsers** - Optimized for modern browsers
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 - [ ] **Real Backend Integration** - Replace MSW with actual API
@@ -297,16 +297,16 @@ GET    /api/stats
 - [ ] **Accessibility** - WCAG 2.1 AA compliance
 - [ ] **Internationalization** - Multi-language support
 
-## 📄 License
+## License
 
 This project is created for educational and demonstration purposes.
 
-## 🤝 Contributing
+## Contributing
 
 This is a technical assignment project. For questions or feedback, please contact the developer.
 
 ---
 
-**Built with ❤️ using React and modern web technologies**
+**Built with React and modern web technologies**
 
 *TalentFlow - Streamlining hiring processes with intelligent workforce management*
